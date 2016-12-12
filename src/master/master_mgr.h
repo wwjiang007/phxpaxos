@@ -29,11 +29,11 @@ See the AUTHORS file for names of contributors.
 namespace phxpaxos 
 {
 
-class MasterDamon : public Thread
+class MasterMgr : public Thread
 {
 public:
-    MasterDamon(const Node * poPaxosNode, const int iGroupIdx, const LogStorage * poLogStorage);
-    ~MasterDamon();
+    MasterMgr(const Node * poPaxosNode, const int iGroupIdx, const LogStorage * poLogStorage);
+    ~MasterMgr();
 
     void RunMaster();
     

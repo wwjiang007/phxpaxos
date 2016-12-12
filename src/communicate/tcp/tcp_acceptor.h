@@ -66,6 +66,7 @@ private:
     std::vector<MessageEvent *> m_vecCreatedEvent;
 
     bool m_bIsEnd;
+    bool m_bIsStarted;
 };
     
 }
